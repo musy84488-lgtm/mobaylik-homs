@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useParams } from 'next/navigation'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
@@ -10,7 +10,8 @@ import { demoProducts, addToCart, formatPrice, type Product } from '@/lib/data'
 import ProductCard from '../../components/ProductCard'
 
 export default function ProductDetailPage() {
-  const params = useParams()
+  const router = useRouter()
+  const params = router.query
   const productId = params.id as string
 
   const [product, setProduct] = useState<Product | null>(null)
