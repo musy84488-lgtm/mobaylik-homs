@@ -9,18 +9,18 @@
   },
   "dependencies": {
     "@next/swc-android-arm64": "13.2.4",
-    "next": "13.2.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "framer-motion": "^10.16.0",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-icons": "^4.11.0"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/react": "^18.2.0",
     "@types/node": "^20.0.0",
-    "tailwindcss": "^3.3.0",
+    "@types/react": "^18.2.0",
+    "autoprefixer": "^10.4.0",
     "postcss": "^8.4.0",
-    "autoprefixer": "^10.4.0"
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.0.0"
   }
 }
